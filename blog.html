@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog</title>
+  <meta name="description" content="Simple blog.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">yxy / LOGO</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="card">
+      <h1>Starting a Minimal Personal Site</h1>
+      <p class="subtitle">Published on 2025-10-28</p>
+      <p>This is a very small blog post to verify the setup.</p>
+      <p>The site uses plain HTML and CSS with no frameworks or external dependencies.</p>
+      <p>Feel free to edit this page or add more posts as needed.</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+
