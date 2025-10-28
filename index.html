@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的主页 · GitHub Pages</title>
+  <meta name="description" content="个人/团队主页示例，适合在 GitHub Pages 上发布。">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">你的名字 / LOGO</div>
+      <nav>
+        <a href="#about">关于</a>
+        <a href="#projects">项目</a>
+        <a href="#publications">论文</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>简洁优雅的 <span class="accent">GitHub Pages</span> 首页</h1>
+      <p class="subtitle">一句标语：让机器人在真实世界中可靠地行动。</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">查看项目</a>
+        <a class="btn" href="#publications">阅读论文</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="about">
+      <h2>关于</h2>
+      <p>这是一份开箱即用的静态主页模板。无框架、无外链依赖，直接拖到 GitHub 仓库即可上线。</p>
+    </section>
+
+    <section id="projects">
+      <h2>精选项目</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Project Alpha</h3>
+          <p>一句话简介：你的核心项目亮点与成果。</p>
+          <div class="tags"><span>Robotics</span><span>RL</span><span>Simulation</span></div>
+          <a class="link" href="#" target="_blank" rel="noreferrer">查看仓库/视频</a>
+        </article>
+        <article class="card">
+          <h3>Project Beta</h3>
+          <p>关键技术、指标或视频链接。</p>
+          <div class="tags"><span>Control</span><span>Imitation</span><span>GPU</span></div>
+          <a class="link" href="#" target="_blank" rel="noreferrer">查看仓库/视频</a>
+        </article>
+        <article class="card">
+          <h3>Project Gamma</h3>
+          <p>创新点与应用场景。</p>
+          <div class="tags"><span>Diffusion</span><span>Planning</span></div>
+          <a class="link" href="#" target="_blank" rel="noreferrer">查看仓库/视频</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>论文 / 文章</h2>
+      <ul class="pubs">
+        <li><span class="meta">2025 · IROS</span> <a href="#" target="_blank" rel="noreferrer">Title of Your Paper</a> — Your Name*, Collaborator</li>
+        <li><span class="meta">2024 · ICRA</span> <a href="#" target="_blank" rel="noreferrer">Another Paper</a> — Your Name, Team</li>
+        <li><span class="meta">2023 · arXiv</span> <a href="#" target="_blank" rel="noreferrer">Workshop / ArXiv Title</a> — Your Name</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>联系</h2>
+      <p>可以把按钮改成 <code>mailto:</code> 或跳转到你的社交账号。</p>
+      <div class="cta">
+        <a class="btn" href="mailto:yourname@example.com">邮件我</a>
+        <a class="btn" href="#" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> 你的名字. 保留所有权利。</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
